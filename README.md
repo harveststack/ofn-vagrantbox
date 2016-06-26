@@ -6,20 +6,20 @@ Put the directory with the Open Food Network codebase at the top level of this d
 
 From _within_ the `development` dirrectory, run the following commands to start/stop/etc the server.
 
-`
+```
 vagrant up                      # To start VM
 vagrant provision               # To re-run ansible playbook
 vagrant halt                    # To stop VM
 vagrant destroy                 # To destroy VM completely
-`
+```
 
 If you edit your hosts file on the HOST machine `sudo vim /private/etc/hosts` adding the following:
 
-`
+```
 ## For ofn dev
 192.168.20.50   ofn.dev
 ## ./For ofn dev
-`
+```
 
 Then run `dscacheutil -flushcache` and you should be able to access the OFN site at http://ofn.dev
 
