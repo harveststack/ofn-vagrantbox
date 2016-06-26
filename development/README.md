@@ -4,7 +4,7 @@ Just based on a [railsbox](http://railsbox.io) template and got me a good deal o
 
 Put the directory with the Open Food Network codebase at the top level of this directory and name it 'openfoodnetwork'.
 
-Run the following commands to start/stop/etc the server.
+From _within_ the `development` dirrectory, run the following commands to start/stop/etc the server.
 
 `
 vagrant up                      # To start VM
