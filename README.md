@@ -25,3 +25,5 @@ Then run `dscacheutil -flushcache` and you should be able to access the OFN site
 
 =AFTER YOU FIRST=
 Follow the instructions at [OFN Wiki](https://github.com/openfoodfoundation/openfoodnetwork), starting from about the part that says "Create the development and test databases, using the settings specified in config/database.yml, and populate them with a schema and seed data:"
+
+Don't forget to make a note of the admin_email: and admin_pass: (we're using 'f00dies') when the rake task creates the Spree admin user.
