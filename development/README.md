@@ -47,3 +47,7 @@ WHERE pg_stat_activity.datname = 'open_food_network_dev'
 Now quit psql like `\q` and go back to user, `vagrant` with `logout`. Try the rake command again.
 
 Good luck!
+
+Oh yea - also you probably want to run the server like this:
+
+`bundle exec rails server -b 0.0.0.0`.
