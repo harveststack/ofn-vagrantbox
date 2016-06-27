@@ -37,10 +37,12 @@ If there's errors in the rake task you may need to delete and recreate the postg
 3. Drop a database like this: `drop database open_food_network_dev`.
 4. If you cannot drop with an error that there are users connected, use this code:
 
-```SELECT pg_terminate_backend(pg_stat_activity.pid)
+```
+SELECT pg_terminate_backend(pg_stat_activity.pid)
 FROM pg_stat_activity
 WHERE pg_stat_activity.datname = 'open_food_network_dev'
-  AND pid <> pg_backend_pid();```
+  AND pid <> pg_backend_pid();
+```
 
 (Do the same for both databases.)
 
