@@ -53,3 +53,11 @@ Good luck!
 Oh yea - also you probably want to run the server like this:
 
 `bundle exec rails server -b 0.0.0.0`.
+
+Also as per Railsbox:
+
+Your application will be served by nginx and unicorn. You can control it by running standard upstart commands: sudo stop openfoodnetwork and sudo start openfoodnetwork.
+
+System service openfoodnetwork-delayed_job will be created. You can control it by running the following commands: sudo stop openfoodnetwork-delayed_job, sudo start openfoodnetwork-delayed_job, sudo restart openfoodnetwork-delayed_job.
+
+
